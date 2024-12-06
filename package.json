@@ -15,5 +15,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ScorpioCoding <dev@scorpiocoding.com> (https://scorpiocoding.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScorpioCoding/cra-template-scorpio-router-lang.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ScorpioCoding/cra-template-scorpio-router-lang/issues"
+  },
+  "homepage": "https://github.com/ScorpioCoding/cra-template-scorpio-router-lang#readme"
 }
