@@ -1,0 +1,19 @@
+{
+  "name": "cra-template-scorpio-router-lang",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "react-router",
+    "i18next",
+    "cra-template",
+    "scorpio",
+    "scorpiocoding"
+  ],
+  "description": "scorpio-react-starter-template",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ScorpioCoding <dev@scorpiocoding.com> (https://scorpiocoding.com)",
+  "license": "ISC"
+}

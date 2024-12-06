@@ -1,0 +1,36 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 10%);
+
+  --grey-light: hsl(0 0% 80%); /*light*/
+  --grey-normal: hsl(0 0% 60%); /*normal*/
+  --grey-medium: hsl(0 0% 40%); /*medium*/
+  --grey-dark: hsl(0 0% 20%); /*dark*/
+
+  --crimson: hsl(354, 100%, 50%);
+  --crimson-dark: hsl(354, 100%, 30%);
+  --fern: hsl(151, 100%, 36%);
+  --fern-dark: hsl(151, 100%, 30%);
+  --boston: hsl(198, 64%, 46%);
+  --boston-dark: hsl(198, 64%, 30%);
+  --coral: hsl(19, 96%, 63%);
+  --coral-dark: hsl(19, 96%, 30%);
+  --razzle: hsl(310, 87%, 62%);
+  --razzle-dark: hsl(310, 87%, 30%);
+  --royal: hsl(291, 48%, 40%);
+  --royal-dark: hsl(291, 48%, 30%);
+  --sun: hsl(35, 89%, 62%);
+  --sun-dark: hsl(35, 89%, 30%);
+
+  --txt-light: hsl(0 0% 80%);
+  --txt-dark: hsl(0 0% 20%);
+
+  --fs-tiny: 0.67em;
+  --fs-small: 0.83em;
+  --fs-base: 1em;
+  --fs-medium: 1.17em;
+  --fs-big: 1.5em;
+  --fs-large: 2em;
+  --fs-xlarge: 2.5em;
+  --fs-xxlarge: 3.5em;
+}

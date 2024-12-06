@@ -1,0 +1,58 @@
+body {
+  font-family: "Parkinsans", sans-serif;
+  font-weight: 500;
+  font-size: var(--fs-base);
+}
+
+code {
+  font-family: "Fira Code";
+  font-weight: 500;
+  font-size: var(--fs-small);
+  color: var(--coral);
+}
+
+.errorMsg {
+  font-size: var(--fs-small);
+  font-family: "Fera Code";
+  font-weight: 500;
+  color: var(--crimson);
+}
+
+.errorList {
+  li {
+    font-size: var(--fs-small);
+    font-family: "Fera Code";
+    font-weight: 400;
+    color: var(--crimson);
+  }
+}
+
+h1 {
+  font-size: var(--fs-large);
+  font-weight: 700;
+}
+h2 {
+  font-size: var(--fs-big);
+  font-weight: 700;
+}
+h3 {
+  font-size: var(--fs-medium);
+  font-weight: 700;
+}
+h4 {
+  font-size: var(--fs-base);
+  font-weight: 700;
+}
+h5 {
+  font-size: var(--fs-small);
+  font-weight: 700;
+}
+h6 {
+  font-size: var(--fs-tiny);
+  font-weight: 700;
+}
+
+p {
+  font-size: var(--fs-base);
+  font-weight: 400;
+}

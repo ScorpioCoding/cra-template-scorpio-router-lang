@@ -1,0 +1,82 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+  //font: inherit;
+}
+
+html {
+  block-size: 100%;
+}
+
+img,
+svg,
+picture,
+video {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--grey-light);
+}
+
+p {
+  margin: 10px;
+  padding: 0;
+  max-width: 80ch;
+}
+
+%container-shared {
+  margin: 10 auto;
+  padding: 10px;
+  width: 100%;
+  overflow-y: auto;
+  min-height: calc(100vh - 60px);
+}
+
+.container {
+  @extend %container-shared;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-center {
+  @extend %container-shared;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-content: center;
+  place-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.wrapper {
+  margin: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.5em;
+  //justify-content: center;
+  //place-content: center;
+  //place-items: center;
+}
+
+.errorList {
+  list-style: none;
+}

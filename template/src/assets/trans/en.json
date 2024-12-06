@@ -1,0 +1,14 @@
+{
+  "branding": {
+    "slogan": "WebDesign - WebDevelopment - WebOps",
+    "welcome": "- welcome -"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Home Page"
+  }
+}
